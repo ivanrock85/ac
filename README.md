@@ -74,3 +74,5 @@ npx prisma db push
 
 ## 后台管理
 访问 `/admin` 路径 (例如 `https://your-domain.com/admin`) 并使用你设置的账号密码登录。
+
+# Vercel Deployment
