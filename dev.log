@@ -1,0 +1,80 @@
+
+> ancheng-website@0.1.0 dev
+> next dev --hostname 0.0.0.0 --port 3000
+
+  ▲ Next.js 14.2.33
+  - Local:        http://localhost:3000
+  - Network:      http://0.0.0.0:3000
+
+ ✓ Starting...
+ ✓ Ready in 1584ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1114ms (522 modules)
+ ✓ Compiled in 86ms (262 modules)
+ GET / 200 in 1251ms
+ ✓ Compiled /_not-found in 59ms (511 modules)
+ GET /apple-touch-icon-precomposed.png 404 in 97ms
+ GET /apple-touch-icon-precomposed.png 404 in 96ms
+ GET /apple-touch-icon.png 404 in 95ms
+ GET /apple-touch-icon.png 404 in 9ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOSPC: no space left on device, write
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOSPC: no space left on device, write
+ GET /charter 404 in 19ms
+ GET /fleet 404 in 11ms
+ GET / 200 in 25ms
+ GET /contact 404 in 10ms
+ GET /charter 404 in 10ms
+ ✓ Compiled in 84ms (262 modules)
+ ✓ Compiled in 57ms (262 modules)
+ ✓ Compiled in 52ms (508 modules)
+ GET / 200 in 74ms
+ ✓ Compiled /charter in 156ms (511 modules)
+ ✓ Compiled /_not-found in 84ms (514 modules)
+ GET /rental 404 in 34ms
+ GET /cases 404 in 19ms
+ GET /charter 200 in 50ms
+ GET /rental 404 in 20ms
+ ✓ Compiled in 80ms (262 modules)
+ ✓ Compiled in 60ms (262 modules)
+ ✓ Compiled in 57ms (511 modules)
+ ✓ Compiled /rental in 125ms (513 modules)
+ ✓ Compiled /_not-found in 87ms (516 modules)
+ GET /fleet 404 in 26ms
+ GET /fleet 404 in 16ms
+ GET /fleet 404 in 35ms
+ ✓ Compiled in 70ms (264 modules)
+ ✓ Compiled in 69ms (264 modules)
+ ✓ Compiled in 67ms (514 modules)
+ ✓ Compiled /fleet in 121ms (513 modules)
+ GET /fleet 200 in 176ms
+ ✓ Compiled /_not-found in 74ms (516 modules)
+ GET /cases 404 in 22ms
+ ✓ Compiled in 52ms (264 modules)
+ GET /cases 404 in 11ms
+ ✓ Compiled in 58ms (264 modules)
+ GET /cases 404 in 9ms
+ ✓ Compiled in 62ms (516 modules)
+ ✓ Compiled /cases in 134ms (515 modules)
+ GET /cases 200 in 189ms
+ ✓ Compiled /_not-found in 79ms (518 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 122ms (518 modules)
+ GET /cases 200 in 86ms
+ ✓ Compiled /rental in 98ms (270 modules)
+ GET /contact 404 in 29ms
+ GET /about 404 in 21ms
+ ✓ Compiled in 64ms (264 modules)
+ ✓ Compiled in 83ms (520 modules)
+ GET /rental 200 in 69ms
+ ✓ Compiled /about in 128ms (522 modules)
+ ✓ Compiled in 69ms (264 modules)
+ ✓ Compiled in 92ms (522 modules)
+ ✓ Compiled /contact in 118ms (521 modules)
+ ✓ Compiled /_not-found in 94ms (520 modules)
+ GET /apple-touch-icon-precomposed.png 404 in 143ms
+ GET /apple-touch-icon.png 404 in 141ms
+ ✓ Compiled in 106ms (262 modules)
+2025-11-20 16:05:06 更新：表单接入 /api/reservations，新增提交校验与提示，修复 charter use client，调整 PageHero 按钮底色。
+2025-11-20 16:06:26 更新：表单接入 /api/reservations，新增提交校验与提示，修复 charter use client，调整 PageHero 按钮底色。
+2025-11-20 16:07:53 工作日志：表单接入 /api/reservations 并新增校验/提示；修复 charter use client；调整 PageHero 次按钮可读性；后台/Mock 保持可用，lint 通过。
+2025-11-20 16:08:55 工作日志：表单接入 /api/reservations 并新增校验/提示；修复 charter use client；调整 PageHero 次按钮可读性；后台/Mock 保持可用，lint 通过。

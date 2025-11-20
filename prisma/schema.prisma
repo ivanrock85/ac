@@ -1,0 +1,36 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Reservation {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  type      String   // 'tourism', 'charter', 'rental', 'airport'
+  name      String
+  phone     String
+  
+  // Store structured details as a JSON string or separate fields. 
+  // For simplicity and flexibility with SQLite, we'll use specific fields for common ones and a generic 'notes' or 'details' for others if needed.
+  // But given the form, we have specific fields.
+  
+  peopleCount String? // Store as string to handle "20人" or "20"
+  origin      String?
+  destination String? // or route name
+  startDate   String? // Keep as string to preserve input format (datetime-local or date)
+  endDate     String?
+  
+  summary     String? // A quick summary string e.g. "Tourism | Route A"
+  notes       String?
+  
+  status      String   @default("pending") // pending, contacted, confirmed, completed, cancelled
+}
